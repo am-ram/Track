@@ -25,7 +25,7 @@ app.get('/tracking-pixel', async (req, res) => {
 
 // Default route for root URL
 app.get('/', (req, res) => {
-  res.send('Welcome to the Email Tracking Server!');
+  res.send('Server!');
 });
 
 app.listen(port, () => {
